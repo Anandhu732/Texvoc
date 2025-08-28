@@ -1,0 +1,27 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Speech bubble with sound waves -->
+  <defs>
+    <linearGradient id="bubbleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left sound waves -->
+  <path d="M2 12C2 12 4 10 4 16C4 22 2 20 2 20" stroke="url(#waveGradient)" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M5 10C5 10 7 8 7 16C7 24 5 22 5 22" stroke="url(#waveGradient)" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M8 8C8 8 10 6 10 16C10 26 8 24 8 24" stroke="url(#waveGradient)" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Speech bubble -->
+  <rect x="12" y="6" width="16" height="16" rx="4" fill="url(#bubbleGradient)" stroke="#065F46" stroke-width="2"/>
+  <path d="M12 18L8 22L8 18H12Z" fill="url(#bubbleGradient)" stroke="#065F46" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Right sound waves -->
+  <path d="M30 12C30 12 28 10 28 16C28 22 30 20 30 20" stroke="url(#waveGradient)" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M27 10C27 10 25 8 25 16C25 24 27 22 27 22" stroke="url(#waveGradient)" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M24 8C24 8 22 6 22 16C22 26 24 24 24 24" stroke="url(#waveGradient)" stroke-width="2" stroke-linecap="round" fill="none"/>
+</svg>
